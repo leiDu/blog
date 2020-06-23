@@ -2,6 +2,7 @@
 title: "Mysql"
 date: 2020-05-10T21:18:23+08:00
 draft: false
+tags: ["databases", "mysql"]
 ---
 &emsp;&emsp;MySQL是一个开源的关系型数据库管理系统，由瑞典MySQL公司开发，属于Oracle旗下产品。
 #### 安装[^1]

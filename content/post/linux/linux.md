@@ -2,6 +2,7 @@
 title: "Linux"
 date: 2020-05-10T20:08:01+08:00
 draft: false
+tags: ["linux"]
 ---
 
 

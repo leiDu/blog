@@ -2,6 +2,7 @@
 title: "Odd"
 date: 2020-05-10T22:29:17+08:00
 draft: false
+tags: ["algorithms", "odd"]
 ---
 
 &emsp;&emsp;今天看过一片文章——完成代码，判断一个整数是否是奇数：

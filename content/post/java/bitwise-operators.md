@@ -2,6 +2,7 @@
 title: "Bitwise Operators"
 date: 2020-05-10T21:43:17+08:00
 draft: false
+tags: ["java", "bit"]
 ---
 &emsp;&emsp;位操作是程序设计中对位模式按位或二进制数的一元或二元的操作。  
 &emsp;&emsp; 位运算中要注意：左边最高位是符号位，如果是正数，则最高位用0表示， 否则用1表示；如果是负数，则采用补码表示。  

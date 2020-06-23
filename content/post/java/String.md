@@ -1,7 +1,8 @@
 ---
 title: "String"
 date: 2020-05-10T22:05:13+08:00
-draft: false
+draft: false 
+tags: ["java", "String"]
 ---
 
 &emsp;&emsp;从概念上将，Java字符串就是Unicode字符序列。e.g:串"Java\u2122由5个Unicode 字符J a v a和TM。Java没有内置的的字符串，而是在标准Java类库中提供了一个预 定义类，很自然地叫做String。每一个用引号括起来的字符串就是String类的一个实 例。  

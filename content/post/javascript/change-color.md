@@ -2,6 +2,7 @@
 title: "Change Color"
 date: 2020-05-10T22:21:59+08:00
 draft: false
+tags: ["javascript"]
 ---
 
 &emsp;&emsp;在代码中主要用到了javaScript中的onchange事件。onchange事件可以用于input text、textarea、select option等HTML Form元素上，当元素内容改变时就触发这 个事件来执行你所写的javaScript程序。  

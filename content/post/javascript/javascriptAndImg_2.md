@@ -2,6 +2,7 @@
 title: "Javascript And Image II"
 date: 2020-05-10T22:53:33+08:00
 draft: false
+tags: ["javascript"]
 ---
 
 &emsp;&emsp;根据上一次的“基于javaScript"的改变图片，有一定的缺陷，如果浏览器不支持 javaScript会怎么样。而为了更高效的执行代码，现在都采用一个模式——代码分 离，这种模式使代码更高效的执行，也更好的让人阅读。接下来，就是讲解HTML 和javaScript的分离。

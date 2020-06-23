@@ -8,9 +8,13 @@ disqusShortname= "yourdiscussshortname"
 enableGitInfo= "true"
 # 指定编译后的public文件
 #publicdir="/media/universe/_dde_data/document/blogSystem/blog.github.io/"
+paginate= 6
+paginatePath = "page"
 
 [taxonomies]
   tag= "tags"
+  category = "categories"
+  series = "series"
 
 [permalinks]
   post= "/:filename/"
@@ -52,20 +56,16 @@ home = [ "HTML", "RSS", "JSON"]
   weight = 2 
   url = "/post/"
 [[menu.nav]]
-  name= "Thinks"
-  url= "/thinks/"
-  weight= 3
-[[menu.nav]]
   name= "Tags"
   url= "/tags/"
-  weight= 4
+  weight= 3
 [[menu.nav]]
    name = "About"
-   weight = 5
+   weight = 4
    url = "/about/"
 [[menu.nav]]
    name = "RSS"
-   weight = 6
+   weight = 5
    url = "/index.xml"
 
 [markup]

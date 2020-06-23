@@ -2,6 +2,7 @@
 title: "npm error in nodejs"
 date: 2020-05-30T22:36:50+08:00
 draft: false
+tags: ["nmp"]
 ---
 
 ### Install  

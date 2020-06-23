@@ -2,6 +2,7 @@
 title: "Javascript And Image I"
 date: 2020-05-10T22:36:52+08:00
 draft: false
+tags: ["javascript"]
 ---
 
 
