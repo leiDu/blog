@@ -1,0 +1,99 @@
+baseURL= "https://leidu.github.io/blogs/"
+languageCode= "en-us"
+defaultContentLanguage= "en"
+title= "Universe"
+theme= "cupper-hugo-theme"
+googleAnalytics= "UA-123456789-1"
+disqusShortname= "yourdiscussshortname"
+enableGitInfo= "true"
+# 指定编译后的public文件
+#publicdir="/media/universe/_dde_data/document/blogSystem/blog.github.io/"
+
+[taxonomies]
+  tag= "tags"
+
+[permalinks]
+  post= "/:filename/"
+  #post= "/content/"
+
+[imaging]
+  quality= "99"
+
+[params]
+  description="Le vent se lève, il faut tenter de vivre" 
+  homeMetaContent= ""
+  footer= ""
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat= "Jan 2, 2006"
+  codePenUser= "someUser"
+  katex= true
+  darkThemeAsDefault= false
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+  
+[params.algolia]
+  appId = "VQLXQSL6PQ"
+  indexName = "blogs"
+  searchOnlyKey = "fdb4e4e3721bcd015b4253b53d0e070d"
+
+[[menu.nav]]
+  name = "Home"
+  weight = 1
+  url = "/"
+[[menu.nav]]
+  name = "Blog"
+  weight = 2 
+  url = "/post/"
+[[menu.nav]]
+  name= "Thinks"
+  url= "/thinks/"
+  weight= 3
+[[menu.nav]]
+  name= "Tags"
+  url= "/tags/"
+  weight= 4
+[[menu.nav]]
+   name = "About"
+   weight = 5
+   url = "/about/"
+[[menu.nav]]
+   name = "RSS"
+   weight = 6
+   url = "/index.xml"
+
+[markup]
+  defaultMarkdownHandler= "goldmark"
+[markup.goldmark.extensions]
+      definitionList= true
+      footnote= true
+      linkify= true
+      strikethrough= true
+      table= true
+      taskList= true
+      typographer= true
+[markup.goldmark.parser]
+      attribute= true
+      autoHeadingID= true
+[markup.goldmark.renderer]
+      hardWraps= false
+      unsafe= true
+      xHTML= false
+[markup.highlight]
+    codeFences= false
+    hl_Lines= ""
+    lineNoStart= 1
+    lineNos= false
+    lineNumbersInTable= true
+    noClasses= true
+    style= "monokai"
+    tabWidth= 4
+[markup.tableOfContents]
+    endLevel= 6
+    startLevel= 2
