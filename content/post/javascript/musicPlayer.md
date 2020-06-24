@@ -5,7 +5,7 @@ draft: false
 tags: ["javascript"]
 ---
 
-&emsp;&emsp;这是一个基于mui框架实现的一个网页随机音乐播放,主要功能有播放与暂停,随机切歌,静音三个.
+&emsp;&emsp;这是一个基于mui框架实现的一个网页随机音乐播放,主要功能有播放与暂停,随机切歌,静音三个。
 #### 需求建模  
 * 原型界面  
 * 数据模型  
@@ -37,14 +37,14 @@ tags: ["javascript"]
   + uniapp  
   + mui
 #### 跨域与协议  
-* 协议  
+* 跨域    
 定义:网页应用中的一种安全机制,域:作用域,网页应用中的ip/主机名/域名  
 跨域方式:设置头部(request:伪造);设置响应许可(运行那些ip/域名来访问,服务器就做出响应);JSON;webservice  
 * 协议  
 协议头://host:port/contextroot/path  
 
 * 跨域的必要条件  
-协议头不同:主机名不同;IP协议不同;域名不同;端口号不同,上下文根不同  
+协议头不同;主机名不同;IP协议不同;域名不同;端口号不同;上下文根不同  
 
 #### 页面布局   
 布局原则:做布局只考虑布局,做内容只考虑内容  
@@ -52,8 +52,16 @@ tags: ["javascript"]
 设计模式:响应式 自适应 沉浸式   
 
 #### 例子   
+* 步骤  
+    本次使用面向对象的方式把代码分离，使用mvc框架，在实现时按着mvc的样式创建三个文件夹，用于存放不同的文件。  
+  + 页面布局  
+    根据页面布局原则，做布局时只考虑布局，做内容时只考虑内容。把布局和页面分开实现后在具体实现操作。  
+  + 具体操作  
+    1.在model层下，创建一个js文件用于存放属性，如` var musicM ={}; `musicA就是一个对象,里面可以声明一些属性,也可以是一些方法，但为了实现代码的可分离性，这里只放属性，如`version:''`等属性，具体详见下面具体代码。  
+	2.在conctroller层下创建一个js文件，用于具体的操作，如`var musicAc={};`  
 * 思路  
-
+  1.创建``audio``元素,如document.createElement("audio");  
+  2.使用mui.getJSON()方法加载源的资源，通过源里的歌曲url可以拿到播放地址，然后把url地址给audio中的src。  
 * css代码:   
 ```
 * {
@@ -348,4 +356,5 @@ var musicAc = {
 
 #### REFERENCES
 [1] https://dev.dcloud.net.cn/mui/ui/  
-[2] http://api.uomg.com/   
+[2] http://api.uomg.com/  
+[3] https://juejin.im/post/5c23993de51d457b8c1f4ee1  
