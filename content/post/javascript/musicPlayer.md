@@ -8,6 +8,11 @@ tags: ["javascript"]
 &emsp;&emsp;这是一个基于mui框架实现的一个网页随机音乐播放,主要功能有播放与暂停,随机切歌,静音三个。
 #### 需求建模  
 * 原型界面  
+  * 设计软件  
+    * 应用端  
+	  [Axure RP](https://www.axure.com.cn/)   
+    * 网页版  
+	  [摹客原型](https://www.mockplus.cn/rp)  
 * 数据模型  
 * 业务模型
 
