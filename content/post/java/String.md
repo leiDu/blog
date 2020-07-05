@@ -2,6 +2,7 @@
 title: "String"
 date: 2020-05-10T22:05:13+08:00
 draft: false 
+categories: ["technology"]
 tags: ["java", "String"]
 ---
 

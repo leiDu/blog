@@ -2,6 +2,7 @@
 title: "Tao Te Ching"
 date: 2020-05-10T16:30:36+08:00
 draft: false
+categories: ["Chinese Studies Classical"]
 tags: ["think", "Chinese Studies"]
 ---
    

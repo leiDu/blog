@@ -2,6 +2,7 @@
 title: "Analysis of value range based on java type"
 date: 2020-05-12T21:48:09+08:00
 draft: false
+categories: ["technology"]
 tags: ["java"]
 ---
 &emsp;&emsp;求"2^100 %

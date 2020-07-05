@@ -2,6 +2,7 @@
 title: "Change Color"
 date: 2020-05-10T22:21:59+08:00
 draft: false
+categories: ["technology"]
 tags: ["javascript"]
 ---
 

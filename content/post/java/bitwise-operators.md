@@ -2,6 +2,7 @@
 title: "Bitwise Operators"
 date: 2020-05-10T21:43:17+08:00
 draft: false
+categories: ["technology"]
 tags: ["java", "bit"]
 ---
 &emsp;&emsp;位操作是程序设计中对位模式按位或二进制数的一元或二元的操作。  

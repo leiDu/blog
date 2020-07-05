@@ -2,7 +2,8 @@
 title: "Music Player base on  MUI framework"
 date: 2020-06-21T18:59:47+08:00
 draft: false
-tags: ["javascript"]
+categories: ["technology"]
+tags: ["javascript", "mui"]
 ---
 
 &emsp;&emsp;这是一个基于mui框架实现的一个网页随机音乐播放,主要功能有播放与暂停,随机切歌,静音三个。
