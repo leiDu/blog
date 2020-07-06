@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design Pattern on Universe</title>
+    <link>https://leidu.github.io/blogs/tags/design-pattern/</link>
+    <description>Recent content in Design Pattern on Universe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 May 2020 21:34:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://leidu.github.io/blogs/tags/design-pattern/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Soft Design</title>
+      <link>https://leidu.github.io/blogs/soft-design/</link>
+      <pubDate>Sun, 10 May 2020 21:34:16 +0800</pubDate>
+      
+      <guid>https://leidu.github.io/blogs/soft-design/</guid>
+      <description>软件体系结构  软件体系结构产生原因
+软件体系结构产生的原因是软件危机的出现。 软件危机的表现
+1.软件成本日益增长
+2.开发进度难以控制
+3.软件质量差
+4.软件维护困难
+软件危机的原因
+1.用户需求不明确
+2.缺乏正确的理论指导
+3.软件规模原来越大
+4.软件复杂度越来越高 克服软件危机
+主要从两方面入手，即技术和管理。  设计模式简要  软件设计模式的分类
+1.创建型：类与实例化时使用的模式
+2.结构型：描述类与对象怎样结合
+3.行为型：设计到算法和对象职责间的分配     创建 结构 行为     类 工厂方法 适配器 解释器模板方法   对象 抽象方法 桥接 责任链　命令   生成器 组成 迭代器 中介者   原型 装饰 备忘录 观察者   单例 享元 代理 状态 策略 访问者    七大原则   单一职责原则</description>
+    </item>
+    
+  </channel>
+</rss>

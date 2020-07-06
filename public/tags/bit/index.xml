@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bit on Universe</title>
+    <link>https://leidu.github.io/blogs/tags/bit/</link>
+    <description>Recent content in bit on Universe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 May 2020 21:43:17 +0800</lastBuildDate>
+    
+	<atom:link href="https://leidu.github.io/blogs/tags/bit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bitwise Operators</title>
+      <link>https://leidu.github.io/blogs/bitwise-operators/</link>
+      <pubDate>Sun, 10 May 2020 21:43:17 +0800</pubDate>
+      
+      <guid>https://leidu.github.io/blogs/bitwise-operators/</guid>
+      <description>位操作是程序设计中对位模式按位或二进制数的一元或二元的操作。
+位运算中要注意：左边最高位是符号位，如果是正数，则最高位用0表示， 否则用1表示；如果是负数，则采用补码表示。
+在计算机中由于位数的不同所引用的二进制数也不同，在现在大多是32位和64位，以下的例子中，以8位来进行实现。 但在学习位运算时，还要先了解进制等相关的知识。
+进制   二进制
+二进制(B)：基于为2的计数制。二进制是“逢2进1”，每一位只有0和1两种状态， 位权为2的各次幂。
+  十进制
+十进制(D)计数方法为“逢10进1”，一个十进制数的每一位都只有10种状态，分别 用0～9等10个数码表示。
+  八进制
+八进制(O)数的基数为8，进位规则为“逢8进1”，使用0~7等8个数码，位权是8的 各次幂。
+  十六进制
+十六进制(H)的基数是16，进位规则为“逢16进1”，使用0~9，A～F等16个数码， 位权是16的各次幂。
+  二进制原码、反码、补码   原码
+原码是一种计算机中对数字的二进制定点表示方法。规则：如果数值是正数，则 最高符号位是0，如果是负数，最高符号位是1，其他位不变。
+  反码
+规则：如果数值是正数，则反码和原码相同；如果是负数，则最高符号位是1，其 它位分别取反。
+  补码
+补码是计算机表示数据的一般形式，规则是如果是正数，则补码和原码一样；如 果是负数，则在反码的基础上+1。
+  原码、反码、补码总结
+如果所求的数值为正数，则原码、反码、补码都是相同的；如果所求的数值为负 数，则原码的符号位是1，不是0；反码符号位不变，其余位取反；补码是在反码的基础 上+1。
+e.g 求8和-8的原码、反码和补码
+     数值 原码 反码 补码     8 0 000 1000 0 000 1000 0 000 1000   -8 1 000 1000 1 111 0111 1 000 1001    位运算  按位与</description>
+    </item>
+    
+  </channel>
+</rss>

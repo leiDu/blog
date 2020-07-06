@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on Universe</title>
+    <link>https://leidu.github.io/blogs/tags/java/</link>
+    <description>Recent content in java on Universe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jun 2020 18:59:47 +0800</lastBuildDate>
+    
+	<atom:link href="https://leidu.github.io/blogs/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analysis of value range based on java type</title>
+      <link>https://leidu.github.io/blogs/type-value-analysis/</link>
+      <pubDate>Tue, 12 May 2020 21:48:09 +0800</pubDate>
+      
+      <guid>https://leidu.github.io/blogs/type-value-analysis/</guid>
+      <description> 求&amp;quot;2^100 % 5&amp;quot;的值，通过分析，需要注意的是在定义时所使用的数据类型，如果定义的数据类型过小，获得的结果就会越界，不能取得正确的结果。
+基本类型的取值范围表    类型 存储需求 取值范围     byte 1 -127~128   short 2 -2^15~2^15-1   int 4 -2^31~2^31-1   long 8 -2^63~2^63-1   float 4 -3.40282310^38~3.40282310^38   double 8 -1.797710^308~1.97710^308   char 2    boolean 1 true 或 false    </description>
+    </item>
+    
+    <item>
+      <title>File</title>
+      <link>https://leidu.github.io/blogs/file/</link>
+      <pubDate>Sun, 10 May 2020 22:13:51 +0800</pubDate>
+      
+      <guid>https://leidu.github.io/blogs/file/</guid>
+      <description>在JDK中，File是从1.0开始就有的，而Files和Path是JDK 1.7才出现的。　File
+ 来自于java.io包中，其中就有一个File类，这个类可以对文件进行读取，可以对其文件 进行创建删除和修改。　 构造函数
+File(String path); 如果path是实际路径，则表示文件目录；如果path是实际文件名，则就是该对象是文件。
+File(String path, String name); path表示目录，name表示文件。
+File(File dir, String name); dir表示对象的路径，name表示文件名。　  Files
+ 来自于java.nio包中，其中就有一个Files类，这个类可以用来移除或重命名文件，或者 查询拍文件下最后被修改的时间，主要关心文件的内容。　Path
+ 来自于java.nio包中，其中就有一个Path类，表示一个目录名序列，其后可以跟着一个文 件名，主要关心磁盘上如何存储文件。 Path类实际一个接口类，不能被实例化，在NIO中也是通过流的方式在工作。在Paths中有一个 静态的Paths.get(String first, String&amp;hellip;more)方法接受一个或多个字符串，并将他们默认的文件系统的路径分隔符连接起 来。然后解析连接起来的结果。如果其表示的不是给定文件系统中的合法路径，就会抛出 InvaildPathException异常。而连接起来的对象就是Path。如:Path pa = Paths.get(&amp;quot;/temp”, “my.config”);
+Paths方法
+根据jdk1.8的源码来看，有两个方法，如下：
+ 方法
+static Path get(String first, String… more
+static Path get(URI uri)  Path方法
+ Path resolve(Path other)
+Path resolve(String other)
+如果other是绝对路径，则返回oher；否则返回通过连接this和other连接得到的路径 Path resolveSibling(Path other)
+Path resolveSibling(String other)</description>
+    </item>
+    
+    <item>
+      <title>String</title>
+      <link>https://leidu.github.io/blogs/string/</link>
+      <pubDate>Sun, 10 May 2020 22:05:13 +0800</pubDate>
+      
+      <guid>https://leidu.github.io/blogs/string/</guid>
+      <description>从概念上将，Java字符串就是Unicode字符序列。e.g:串&amp;quot;Java\u2122由5个Unicode字符J a v a和TM。Java没有内置的的字符串，而是在标准Java类库中提供了一个预定义类，很自然地叫做String。每一个用引号括起来的字符串就是String类的一个实例。 在字符串中，分为不可变字符串(String)和可变字符串(StringBuffer和StringBuilder)。
+String  String类在JDK API中使用final修饰的，意为不可修改类。以下是String类图。 public final class String implements java.io.Serializable, Comparable&amp;lt;String&amp;gt;, CharSequence { ... }   String的创建   String str = “She is my mother”; String str2 = “She is my mother”; String str3 = new String(“She is my mother”); System.out.println(str == str2); //true System.out.println(str.equals(str2)); //true System.out.println(str == str3); //false System.out.println(str.equals(str3)); //true   通过分析，虽然str,str2,str3都是指向一个地址，但“str == str3”的值是false，可以得到一个结果，str和 str2这两个对象是在常量池中保存，而str3是通过关键字new创建的一个对象，被存放在了堆内存中，而通过equals比较时，str3被重写了，重写过后变成了值比较，如&amp;quot;str == str2&amp;rdquo;。
+ System.out.println(“She is my mother, and her name” + name);   通过println()里的语句，‘+’是一个连接符，如果在一条语句里，存在字符串和‘+’ ，那么这条语句就还是字符串；如果是数值(2+3)，则这时‘+’就起算术运算。</description>
+    </item>
+    
+    <item>
+      <title>Bitwise Operators</title>
+      <link>https://leidu.github.io/blogs/bitwise-operators/</link>
+      <pubDate>Sun, 10 May 2020 21:43:17 +0800</pubDate>
+      
+      <guid>https://leidu.github.io/blogs/bitwise-operators/</guid>
+      <description>位操作是程序设计中对位模式按位或二进制数的一元或二元的操作。
+位运算中要注意：左边最高位是符号位，如果是正数，则最高位用0表示， 否则用1表示；如果是负数，则采用补码表示。
+在计算机中由于位数的不同所引用的二进制数也不同，在现在大多是32位和64位，以下的例子中，以8位来进行实现。 但在学习位运算时，还要先了解进制等相关的知识。
+进制   二进制
+二进制(B)：基于为2的计数制。二进制是“逢2进1”，每一位只有0和1两种状态， 位权为2的各次幂。
+  十进制
+十进制(D)计数方法为“逢10进1”，一个十进制数的每一位都只有10种状态，分别 用0～9等10个数码表示。
+  八进制
+八进制(O)数的基数为8，进位规则为“逢8进1”，使用0~7等8个数码，位权是8的 各次幂。
+  十六进制
+十六进制(H)的基数是16，进位规则为“逢16进1”，使用0~9，A～F等16个数码， 位权是16的各次幂。
+  二进制原码、反码、补码   原码
+原码是一种计算机中对数字的二进制定点表示方法。规则：如果数值是正数，则 最高符号位是0，如果是负数，最高符号位是1，其他位不变。
+  反码
+规则：如果数值是正数，则反码和原码相同；如果是负数，则最高符号位是1，其 它位分别取反。
+  补码
+补码是计算机表示数据的一般形式，规则是如果是正数，则补码和原码一样；如 果是负数，则在反码的基础上+1。
+  原码、反码、补码总结
+如果所求的数值为正数，则原码、反码、补码都是相同的；如果所求的数值为负 数，则原码的符号位是1，不是0；反码符号位不变，其余位取反；补码是在反码的基础 上+1。
+e.g 求8和-8的原码、反码和补码
+     数值 原码 反码 补码     8 0 000 1000 0 000 1000 0 000 1000   -8 1 000 1000 1 111 0111 1 000 1001    位运算  按位与</description>
+    </item>
+    
+  </channel>
+</rss>
