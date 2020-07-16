@@ -3,7 +3,7 @@ title: "Git"
 date: 2020-07-06T18:40:52+08:00
 draft: false 
 tags: ["git"]
-categories: ["Summer Experience"]
+categories: ["git"]
 ---
 
 &emsp;&emsp;由于在git容器中删除了一个文件，在做提交时始终不能把内容提交到github容器中,以下是错误:  

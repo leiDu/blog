@@ -2,8 +2,8 @@
 title: "ReplacementAlgorithm"
 date: 2020-06-28T21:28:09+08:00
 draft: false
-categories: ["technology"]
-tags: ["operation system", "page replacement algorithm"]
+categories: ["operation system"]
+tags: ["algorithm"]
 ---
 ### 引言  
 &emsp;&emsp;进程运行时，若其所要访问的页面不在内存，而需把他们调入内存，但内存已无空闲空间时，为了保证该进程能正常运行，系统必须从内存中调出一页程序和数据送到磁盘的对换区中。这种把选择换出页面的算法称为页面置换算法。   

@@ -2,8 +2,8 @@
 title: "File"
 date: 2020-05-10T22:13:51+08:00
 draft: false
-categories: ["technology"]
-tags: ["java", "I/O", "File", "Files", "Path", "Paths"]
+categories: ["java"]
+tags: ["I/O", "File", "Files", "Path", "Paths"]
 ---
 
 

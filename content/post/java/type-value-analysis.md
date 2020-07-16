@@ -2,8 +2,8 @@
 title: "Analysis of value range based on java type"
 date: 2020-05-12T21:48:09+08:00
 draft: false
-categories: ["technology"]
-tags: ["java"]
+categories: ["java"]
+tags: ["java type"]
 ---
 &emsp;&emsp;求"2^100 %
 5"的值，通过分析，需要注意的是在定义时所使用的数据类型，如果定义的数据类型过小，获得的结果就会越界，不能取得正确的结果。   

@@ -2,7 +2,7 @@
 title: "Javascript And Image II"
 date: 2020-05-10T22:53:33+08:00
 draft: false
-categories: ["technology"]
+categories: ["javascript"]
 tags: ["javascript"]
 ---
 

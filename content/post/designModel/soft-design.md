@@ -2,7 +2,7 @@
 title: "Soft Design"
 date: 2020-05-10T21:34:16+08:00
 draft: false
-categories: ["technology"]
+categories: ["Design Pattern"]
 tags: ["Design Pattern"]
 ---
 
